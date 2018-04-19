@@ -6,5 +6,3 @@ This was a two part exercise invoking the plugin similar to common use cases of 
 * All it really took was a google search of "tiny mce target textarea id", which got me to this page via google.
 * https://www.tinymce.com/docs/configure/integration-and-setup/
 * Was able to target the specific textarea afterwards.
-
-#2276d2
