@@ -2,7 +2,7 @@
 This was a two part exercise invoking the plugin similar to common use cases of customers implementing TinyMCE.
 
 ## Deployed Site:
-* https://eph0xc0de.firebaseapp.com/
+https://eph0xc0de.firebaseapp.com/
 
 ## Part A: Invoke TinyMCE in a Simple HTML Page
 * I signed up for the latest TinyMCE via the Cloud service which then kicked me over to the TinyMCE website, and in the Download page I saw the TinyMCE Cloud deployment example.
