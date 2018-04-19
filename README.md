@@ -1,4 +1,4 @@
-# Ephox Product Support Engineer -  Coding Exercise
+# Product Support Engineer -  Coding Exercise
 This was a two part exercise invoking the plugin similar to common use cases of customers implementing TinyMCE.
 
 ## Deployed Site:
@@ -11,7 +11,7 @@ https://eph0xc0de.firebaseapp.com/
 * https://www.tinymce.com/docs/configure/integration-and-setup/
 * Was able to target the specific textarea afterwards.
 
-## Part B: Add a Custom Dialog using TinyMCE’s WindowManager
+## Part B: Add a Custom Dialog using TinyMCE`'`s WindowManager
 * Next I took the javascript, and put in an App.js file, created a stylesheet, and prepared to push and host on Firebase.
 * Once that was all working, started playing with the WindowsManager, and creating a custom toolbar and dialog.
 * https://www.tinymce.com/docs/advanced/events/
