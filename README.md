@@ -1,4 +1,4 @@
-# TinyMCE Plugin Coding Exercise
+# Ephox Product Support Engineer -  Coding Exercise
 This was a two part exercise invoking the plugin similar to common use cases of customers implementing TinyMCE.
 
 ## Deployed Site:
