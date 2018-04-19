@@ -12,7 +12,7 @@ This was a two part exercise invoking the plugin similar to common use cases of 
 * Was able to target the specific textarea afterwards.
 
 ## Part B: Add a Custom Dialog using TinyMCE’s WindowManager
-* Next I took the javascript, and put in an App.js file, and prepared to push and host on Firebase.
+* Next I took the javascript, and put in an App.js file, created a stylesheet, and prepared to push and host on Firebase.
 * Once that was all working, started playing with the WindowsManager, and creating a custom toolbar and dialog.
 * The WindowsManager took several attempts to get right, and was by far the biggest sticking point.
 * https://www.tinymce.com/docs/advanced/events/
