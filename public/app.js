@@ -5,9 +5,9 @@ tinymce.init({
     "advlist link image lists charmap print preview media",
     "table contextmenu directionality emoticons template textcolor colorpicker code spellchecker"
   ],
+  menubar: 'file edit insert view format table tools',
   toolbar1: "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent | link image",
   toolbar2: " fontsizeselect | print preview media | forecolor backcolor emoticons | template | addName",
-  menubar: 'file edit insert view format table tools',
   setup: function(editor) {
     editor.addButton('addName', {
       text: 'Insert User Name',
