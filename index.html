@@ -2,14 +2,11 @@
 <html>
 <head>
   <script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=2qyd6fthn5h6exokzfnqkqzuo0gmq7bgpw86tcpj29ki4een"></script>
-  <script>tinymce.init({ selector:'textarea#editor' });  tinymce.ui.Factory.create({
-      type: 'button',
-      text: 'My button'
-  }).renderTo(document.body);</script>
 </head>
-<body>
-  <textarea id="not-editor">Testing</textarea>
-  <textarea id="editor">Testing</textarea>
 
+<body>
+    <textarea id="not-editor">Testing</textarea>
+    <textarea name="editor" id="editor"></textarea>
 </body>
+<script src="app.js"></script>
 </html>
