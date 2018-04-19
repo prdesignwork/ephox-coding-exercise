@@ -1,6 +1,13 @@
 tinymce.init({
   selector:'#editor',
   height: 400,
+  plugins: [
+    "advlist link image lists charmap print preview media",
+    "table contextmenu directionality emoticons template textcolor colorpicker code spellchecker"
+  ],
+  toolbar1: "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent | link image",
+  toolbar2: " fontsizeselect | print preview media | forecolor backcolor emoticons | template | addName",
+  menubar: 'file edit insert view format table tools',
   setup: function(editor) {
     editor.addButton('addName', {
       text: 'Insert User Name',
@@ -19,7 +26,8 @@ tinymce.init({
               label: 'Last Name'
             }
           ],
-          height: 300,
+          width: 325,
+          height: 100,
           onsubmit: function(e) {
             editor.insertContent(e.data.firstName)
             editor.insertContent(' ')
