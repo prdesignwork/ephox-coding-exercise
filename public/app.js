@@ -29,9 +29,7 @@ tinymce.init({
           width: 325,
           height: 100,
           onsubmit: function(e) {
-            editor.insertContent(e.data.firstName)
-            editor.insertContent(' ')
-            editor.insertContent(e.data.lastName)
+            editor.insertContent('<span class="abc">'+e.data.firstName+' '+e.data.lastName+'</span>');
           },
         })
       }
