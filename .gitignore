@@ -1,5 +1,6 @@
 
-**/node_modules/*
+**/node_modules/**
 **/.firebaserc
 */npm-debug.log
 **/package-lock.json
+firebase.json

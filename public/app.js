@@ -1,6 +1,5 @@
 tinymce.init({
   selector:'#editor',
-  width: 600,
   height: 400,
   setup: function(editor) {
     editor.addButton('addName', {
@@ -20,8 +19,7 @@ tinymce.init({
               label: 'Last Name'
             }
           ],
-          width: 700,
-          height: 100,
+          height: 300,
           onsubmit: function(e) {
             editor.insertContent(e.data.firstName)
             editor.insertContent(' ')
